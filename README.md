@@ -1,8 +1,12 @@
 # EnumByte MCP Security Test Lab
 
+[![CI](https://github.com/SentinelByte/enumbyte-mcp-security-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/SentinelByte/enumbyte-mcp-security-lab/actions/workflows/ci.yml)
+
 Companion to [MCP Server Security: What Most Implementations Get Wrong](https://enumbyte.com) on [EnumByte](https://enumbyte.com).
 
-A minimal intentionally-vulnerable MCP server and a hardened version, side by side. Each of the 11 attack scenarios from the article has a runnable test that proves the flaw on the vulnerable server and the fix on the hardened one.
+The article makes claims about how MCP servers fail. This lab lets you verify them. Each of the 11 attack scenarios has a runnable test that proves the flaw on an intentionally-vulnerable server and the fix on a hardened one — so you don't have to take anyone's word for it.
+
+This is not a training environment or a framework to build on. It is a verification tool: read the article, run the lab, inspect the code, understand why each fix works.
 
 > **Warning:** The vulnerable server is intentionally insecure. Run it only inside Docker. Never expose port 8000 to the internet.
 
