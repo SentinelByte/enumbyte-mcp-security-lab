@@ -1,0 +1,15 @@
+services:
+  vulnerable:
+    build: ./vulnerable
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_SECRET=super-secret-db-password-12345
+
+  hardened:
+    build: ./hardened
+    ports:
+      - "8001:8000"
+    environment:
+      - APP_SECRET=super-secret-db-password-12345
+      - JWT_SECRET=lab-jwt-signing-key
