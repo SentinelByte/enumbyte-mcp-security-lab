@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/SentinelByte/enumbyte-mcp-security-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/SentinelByte/enumbyte-mcp-security-lab/actions/workflows/ci.yml)
 
-Companion to <a href="https://enumbyte.com/ai%20security/mcp-server-security/" target="_blank" rel="noopener noreferrer">MCP Server Security Blog Post</a> on <a href="https://enumbyte.com" target="_blank" rel="noopener noreferrer">EnumByte</a>.
+Companion to [MCP Server Security Blog Post](https://enumbyte.com/ai%20security/mcp-server-security/) on [EnumByte](https://enumbyte.com).
 
 The article makes claims about how MCP servers fail. This lab lets you verify them. Each of the 11 attack scenarios has a runnable test that proves the flaw on an intentionally-vulnerable server and the fix on a hardened one — so you don't have to take anyone's word for it.
 
